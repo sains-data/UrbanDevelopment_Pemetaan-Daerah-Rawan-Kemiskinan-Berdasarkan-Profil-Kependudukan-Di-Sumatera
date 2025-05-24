@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+# Project Analisis Big Data - Urban Development -- Pemetaan Daerah Rawan Kemiskinan Berdasarkan Profil Kependudukan Di Sumatera
+<<<<<<< 
  # 📦 Big Data Pipeline: Pemetaan Kemiskinan Sumatera
 
 Dokumen ini menjelaskan arsitektur pipeline big data untuk pemetaan tingkat kemiskinan di wilayah Sumatera, menggunakan pendekatan Data Lake dan teknologi Hadoop, Spark, Hive, serta visualisasi dengan Python.
@@ -59,5 +60,4 @@ Dokumen ini menjelaskan arsitektur pipeline big data untuk pemetaan tingkat kemi
 ![Struktur Folder](pipeline.png)
 
 =======
-# Project Analisis Big Data - Urban Development -- Pemetaan Daerah Rawan Kemiskinan Berdasarkan Profil Kependudukan Di Sumatera
->>>>>>> cd78d58d1b512c3f4f629528d11fb971e72b052d
+>>>>>>> 
