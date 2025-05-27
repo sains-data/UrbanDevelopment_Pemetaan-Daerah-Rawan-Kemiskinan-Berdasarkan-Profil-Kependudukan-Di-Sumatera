@@ -1,0 +1,122 @@
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database files
+*.db-journal
+*.sqlite
+
+# Docker volumes
+docker/volumes/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large data files that should be downloaded separately
+# data/*.csv
+
+# Docker compose override
+docker-compose.override.yml
+
+# Backup files
+*.bak
+*.backup
+
+# Airflow specific
+airflow/logs/*
+airflow/dags/__pycache__/
+airflow/dags/*.pyc
+
+# Hadoop/Spark logs
+logs/*.log
+logs/*/
+
+# Superset specific
+superset_data/superset.db
+superset_data/superset_config.py
+
+# Debug and test outputs
+debug_report_*.txt
+test_output_*.txt
+*.debug
+
+# Docker volumes and data
+volumes/
+data/processed/
+data/output/
+
+# Jupyter notebook checkpoints
+notebooks/.ipynb_checkpoints/
+
+# System and temporary files
+*.swp
+*.swo
+*~
+.nfs*
+
+# Maven/Gradle (if using Java components)
+target/
+.gradle/
+
+# Node modules (if using Node.js tools)
+node_modules/
+npm-debug.log*
+
+# Config files with sensitive data
+config/secrets.yml
+config/production.yml
+.secrets/

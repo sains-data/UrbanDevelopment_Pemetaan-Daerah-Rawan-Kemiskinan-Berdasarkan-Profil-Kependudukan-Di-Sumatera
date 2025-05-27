@@ -1,7 +1,0 @@
-apache-airflow==2.8.1
-apache-airflow-providers-apache-spark==5.3.0
-# tambahkan provider lain sesuai kebutuhan, misalnya:
-apache-airflow-providers-postgres
-apache-airflow-providers-apache-hive
-
-
