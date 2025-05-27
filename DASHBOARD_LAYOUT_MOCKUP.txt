@@ -1,0 +1,113 @@
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                   POVERTY MAPPING SUMATERA - KELOMPOK 18                   │
+│                          Enhanced Dashboard Layout                          │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─── ROW 1: EXECUTIVE KPI CARDS (4 cards horizontal) ─────────────────────────┐
+│ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐       │
+│ │📊 TOTAL POP  │ │📈 AVG POVERTY│ │👥 TOTAL POOR │ │📊 UNEMPLOYMENT│       │
+│ │              │ │              │ │              │ │              │       │
+│ │  20,000,000  │ │    17.5%     │ │  3,500,000   │ │    5.2%      │       │
+│ │   People     │ │   (High)     │ │   People     │ │              │       │
+│ └──────────────┘ └──────────────┘ └──────────────┘ └──────────────┘       │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─── ROW 2: KEY VISUAL INSIGHTS (2 large charts) ─────────────────────────────┐
+│ ┌─────────────────────────────┐ ┌─────────────────────────────────────────┐ │
+│ │    🎯 POVERTY RISK GAUGE    │ │    📊 POVERTY RATE BY PROVINCE          │ │
+│ │                             │ │                                         │ │
+│ │        ┌─────────────┐      │ │  Sumatera Barat  ████████████████ 17.66%│ │
+│ │        │     🔴      │      │ │  Sumatera Selatan███████████████ 17.53%│ │
+│ │        │   17.5%     │      │ │  Sumatera Utara  ██████████████ 17.32%│ │
+│ │        │  CRITICAL   │      │ │                                         │ │
+│ │        └─────────────┘      │ │         0%    5%   10%   15%   20%     │ │
+│ └─────────────────────────────┘ └─────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─── ROW 3: DISTRIBUTION ANALYSIS (2 medium charts) ──────────────────────────┐
+│ ┌─────────────────────────────┐ ┌─────────────────────────────────────────┐ │
+│ │  🥧 POPULATION DISTRIBUTION │ │  📊 POOR POPULATION COUNT              │ │
+│ │                             │ │                                         │ │
+│ │      ┌─────────────┐        │ │  Sumatera Barat   ████████ 1,200,000   │ │
+│ │      │    35%      │        │ │  Sumatera Selatan ███████ 1,100,000    │ │
+│ │      │ 📍 Sumbar   │        │ │  Sumatera Utara   ██████ 1,000,000     │ │
+│ │   30%│ 📍 Sumsel 35%        │ │                                         │ │
+│ │      │ 📍 Sumut    │        │ │      0    500K   1M   1.5M   2M        │ │
+│ │      └─────────────┘        │ │                                         │ │
+│ └─────────────────────────────┘ └─────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─── ROW 4: CORRELATION ANALYSIS (2 medium charts) ───────────────────────────┐
+│ ┌─────────────────────────────┐ ┌─────────────────────────────────────────┐ │
+│ │📈 POVERTY vs UNEMPLOYMENT   │ │   🎨 RISK CATEGORY DISTRIBUTION         │ │
+│ │                             │ │                                         │ │
+│ │ Poverty Rate (%)            │ │       ┌─────────────────┐               │ │
+│ │ 18│      📍 Sumbar          │ │       │                 │               │ │
+│ │ 17│  📍 Sumsel  📍 Sumut    │ │       │   🔴 HIGH RISK  │               │ │
+│ │ 16│                         │ │       │      100%       │               │ │
+│ │ 15└─────────────────────────│ │       │   (3 Provinces) │               │ │
+│ │    4%   5%   6%   7%        │ │       └─────────────────┘               │ │
+│ │      Unemployment Rate      │ │                                         │ │
+│ └─────────────────────────────┘ └─────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─── ROW 5: DETAILED DATA TABLE (full width) ─────────────────────────────────┐
+│ ┌─────────────────────────────────────────────────────────────────────────┐ │
+│ │                    📋 COMPLETE PROVINCE STATISTICS                      │ │
+│ ├─────────────────┬─────────────┬─────────────┬─────────────┬─────────────┤ │
+│ │ Province Name   │ Poverty %   │ Population  │ Poor Pop    │ Risk Level  │ │
+│ ├─────────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ │
+│ │ Sumatera Barat  │    17.66%   │  7,000,000  │ 1,236,200  │ 🔴 High     │ │
+│ │ Sumatera Selatan│    17.53%   │  6,500,000  │ 1,139,450  │ 🔴 High     │ │
+│ │ Sumatera Utara  │    17.32%   │  6,500,000  │ 1,125,800  │ 🔴 High     │ │
+│ └─────────────────┴─────────────┴─────────────┴─────────────┴─────────────┘ │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════════
+                            📊 CHART YANG PERLU DITAMBAHKAN:
+═══════════════════════════════════════════════════════════════════════════════
+
+🏆 PRIORITAS TINGGI (Yang Belum Ada):
+------------------------------------
+5. 🎯 Gauge Chart: Risk Level (ROW 2, Left)
+6. 🔢 KPI Card: Average Poverty Rate (ROW 1, 2nd)
+7. 🔢 KPI Card: Total Poor Population (ROW 1, 3rd)
+8. 🔢 KPI Card: Unemployment Rate (ROW 1, 4th)
+9. 📊 Horizontal Bar: Poor Population Count (ROW 3, Right)
+
+🥈 PRIORITAS SEDANG (Enhancement):
+---------------------------------
+10. 📈 Scatter Plot: Poverty vs Unemployment (ROW 4, Left)
+11. 🎨 Donut Chart: Risk Distribution (ROW 4, Right)
+
+🎨 COLOR CODING:
+===============
+🔴 High Risk/Poverty: #ff4444
+🟡 Medium Risk: #ffaa00
+🟢 Low Risk/Good: #00aa44
+🔵 Population: #4488ff
+⚫ Text: #333333
+
+📝 CHART NAMES (for easy reference):
+===================================
+✅ "Total Population KPI"
+✅ "Average Poverty Rate KPI" (NEW)
+✅ "Total Poor Population KPI" (NEW)
+✅ "Unemployment Rate KPI" (NEW)
+✅ "Poverty Rate by Province Bar"
+✅ "Population Distribution Pie"
+✅ "Poverty Risk Level Gauge" (NEW)
+✅ "Poor Population Count Horizontal Bar" (NEW)
+✅ "Province Details Table"
+✅ "Poverty vs Unemployment Scatter" (NEW)
+✅ "Risk Distribution Donut" (NEW)
+
+🎯 IMPACT ANALYSIS:
+==================
+Current Dashboard: Basic 4 charts
+Enhanced Dashboard: Professional 11 charts
+Improvement: 275% more insights!
+
+═══════════════════════════════════════════════════════════════════════════════
+🚀 NEXT ACTION: Start dengan Gauge Chart (biggest visual impact!)
+═══════════════════════════════════════════════════════════════════════════════

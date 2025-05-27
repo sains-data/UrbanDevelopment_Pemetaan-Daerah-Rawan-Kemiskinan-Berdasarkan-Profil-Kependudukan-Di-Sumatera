@@ -1,0 +1,30 @@
+🌐 LOCALHOST LINKS - KELOMPOK 18 BIG DATA PIPELINE
+=====================================================
+
+📊 ANALYTICS & DASHBOARDS:
+🚀 Superset Dashboard: http://localhost:8089 (admin/admin)
+📓 Jupyter Notebook: http://localhost:8888
+
+⚡ BIG DATA PROCESSING:
+🐘 Hadoop NameNode: http://localhost:9870
+⚡ Spark Master: http://localhost:8080  
+🔧 Spark Worker 1: http://localhost:8081
+🔧 Spark Worker 2: http://localhost:8082
+
+🔄 WORKFLOW MANAGEMENT:
+🌊 Apache Airflow: http://localhost:8090
+
+🗄️ DATABASE:
+🐘 PostgreSQL: localhost:5432 (postgres/postgres123)
+   Database: poverty_mapping (20 records, 9 provinces)
+
+🎯 CURRENT FOCUS:
+- ML Notebook: 02_Machine_Learning_Poverty_Prediction.ipynb
+- Superset: Ready for poverty mapping dashboards
+- Data: 20 poverty records from Sumatra ready
+
+💡 QUICK ACTIONS:
+docker ps | Select-String "postgres-local|superset|jupyter"
+python verify_superset_setup.py
+
+✅ ALL SERVICES RUNNING - READY FOR DEVELOPMENT!

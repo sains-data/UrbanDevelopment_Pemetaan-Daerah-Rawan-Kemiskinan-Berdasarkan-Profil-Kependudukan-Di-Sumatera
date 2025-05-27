@@ -1,0 +1,113 @@
+🌐 COMPLETE LOCALHOST LINKS - KELOMPOK 18 BIG DATA PIPELINE
+================================================================
+
+📊 ANALYTICS & DASHBOARDS:
+═══════════════════════════════════════════════════════════════
+🚀 Apache Superset Dashboard: http://localhost:8089
+   Login: admin / admin
+   Status: ✅ Ready for poverty mapping dashboards
+
+📓 Jupyter Notebook: http://localhost:8888
+   Access: No password required
+   Status: ✅ Ready for data science & ML development
+
+🌊 Apache Airflow: http://localhost:8090
+   Login: admin / admin
+   Status: ✅ ETL pipeline orchestration
+
+⚡ BIG DATA PROCESSING (HADOOP ECOSYSTEM):
+═══════════════════════════════════════════════════════════════
+🐘 Hadoop NameNode (HDFS Web UI): http://localhost:9870
+   Purpose: HDFS cluster management & monitoring
+
+📊 YARN ResourceManager: http://localhost:8088
+   Purpose: Cluster resource management & application monitoring
+
+📈 YARN NodeManager: http://localhost:8042
+   Purpose: Node-level resource monitoring
+
+📋 MapReduce History Server: http://localhost:8188
+   Purpose: Historical job information
+
+🏢 Hive Server2: http://localhost:10000
+   Purpose: SQL interface to Hadoop (JDBC/ODBC)
+   Connection: jdbc:hive2://localhost:10000
+
+🗄️ Hive Metastore: http://localhost:9083
+   Purpose: Metadata service for Hive tables
+
+⚡ APACHE SPARK CLUSTER:
+═══════════════════════════════════════════════════════════════
+🔥 Spark Master UI: http://localhost:8080
+   Purpose: Cluster overview, applications, workers
+
+🔧 Spark Worker 1: http://localhost:8081
+   Purpose: Worker node status, executors, tasks
+
+🔧 Spark Worker 2: http://localhost:8082
+   Purpose: Worker node status, executors, tasks
+
+🗄️ DATABASES:
+═══════════════════════════════════════════════════════════════
+🐘 PostgreSQL (Main Database): localhost:5432
+   Container: postgres-local
+   Database: poverty_mapping
+   Username: postgres
+   Password: postgres123
+   Data: ✅ Gold layer dengan 3 provinsi Sumatera (REAL DATA)
+
+🐘 Hive Metastore PostgreSQL: Internal (Port 5432)
+   Purpose: Hive metadata storage
+
+🐘 Airflow Database PostgreSQL: Internal (Port 5432)
+   Purpose: Airflow metadata & state
+
+📂 HADOOP DATANODES:
+═══════════════════════════════════════════════════════════════
+🗂️ DataNode 1: http://localhost:9864
+   Purpose: Data storage node monitoring
+
+🗂️ DataNode 2: http://localhost:9865
+   Purpose: Data storage node monitoring
+
+🎯 CURRENT PROJECT STATUS:
+═══════════════════════════════════════════════════════════════
+✅ Medallion Architecture: Bronze → Silver → Gold ✅
+✅ Real Data Integration: 3 Provinsi Sumatera (Barat, Selatan, Utara)
+✅ Gold Layer Views: Ready for Superset dashboards
+✅ All Services: Running and healthy
+
+📊 DATASET INFORMATION:
+═══════════════════════════════════════════════════════════════
+• Source: Profil_Kemiskinan_Sumatera.csv (20,002 rows)
+• Provinces: Sumatera Barat (17.66%), Sumatera Selatan (17.53%), Sumatera Utara (17.32%)
+• Gold Tables: gold_province_poverty_summary, gold_poverty_statistics
+• Views: v_gold_provincial_dashboard, v_gold_poverty_hotspots, v_gold_summary_stats
+
+🔗 IMPORTANT CONNECTION DETAILS:
+═══════════════════════════════════════════════════════════════
+For Superset PostgreSQL Connection:
+Host: postgres-local (NOT localhost)
+Port: 5432
+Database: poverty_mapping
+Username: postgres
+Password: postgres123
+
+Complete URI: postgresql://postgres:postgres123@postgres-local:5432/poverty_mapping
+
+💡 QUICK ACCESS COMMANDS:
+═══════════════════════════════════════════════════════════════
+# Check all containers status
+docker ps --format "table {{.Names}}\t{{.Status}}\t{{.Ports}}"
+
+# Check PostgreSQL connection
+python quick_data_check.py
+
+# Access services quickly
+start http://localhost:8089  # Superset
+start http://localhost:8888  # Jupyter
+start http://localhost:8080  # Spark Master
+start http://localhost:9870  # Hadoop NameNode
+
+🎉 READY FOR: Superset dashboard creation with real Sumatera poverty data!
+================================================================

@@ -1,0 +1,22 @@
+🔑 POSTGRESQL CONNECTION DETAILS - SUPERSET
+============================================
+
+UNTUK FORM SUPERSET DATABASE CONNECTION:
+
+Host: postgres-local
+Port: 5432
+Database name: poverty_mapping
+Username: postgres
+Password: postgres123
+
+ATAU COMPLETE URI:
+postgresql://postgres:postgres123@postgres-local:5432/poverty_mapping
+
+✅ STATUS: VERIFIED WORKING
+📊 DATA: 20 poverty records, 9 Sumatra provinces
+🎯 READY: For dashboard creation
+
+PENTING: 
+- Gunakan "postgres-local" BUKAN "localhost"
+- Password sudah direset dan dikonfirmasi: "postgres123"
+- Koneksi ditest dari Superset container: SUCCESS ✅

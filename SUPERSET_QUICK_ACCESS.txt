@@ -1,0 +1,29 @@
+🌐 QUICK ACCESS LINKS - Kelompok 18 Dashboard
+===============================================
+
+SUPERSET DASHBOARD ACCESS:
+🔗 Main URL: http://localhost:8089
+👤 Login: admin / admin
+
+DIRECT ACCESS LINKS:
+📊 Dashboards: http://localhost:8089/dashboard/list/
+📈 Charts: http://localhost:8089/chart/list/
+🗄️ Datasets: http://localhost:8089/tablemodelview/list/
+🔌 Database Connections: http://localhost:8089/databaseview/list/
+⚡ SQL Lab: http://localhost:8089/superset/sqllab/
+
+DATABASE CONNECTION INFO:
+Host: postgres-local
+Port: 5432
+Database: poverty_mapping
+Username: postgres
+Password: postgres123
+
+CONNECTION URI:
+postgresql://postgres:postgres123@postgres-local:5432/poverty_mapping
+
+STATUS CHECK COMMANDS:
+docker ps | Select-String "superset|postgres-local"
+python verify_superset_setup.py
+
+READY TO BUILD POVERTY MAPPING DASHBOARDS! 🎯
