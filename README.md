@@ -75,12 +75,15 @@ Visualisasi dilakukan menggunakan Superset Dashboard dengan analisis lanjutan di
 
 ## 📁 Struktur Folder
 
-├── airflow/dags/ # ETL workflows (DAGs)
-├── data/ # Dataset CSV
-├── notebooks/ # Jupyter analysis
-├── docker-compose.yml # Docker stack definition
-├── Arsitektur Pipeline.png # Gambar arsitektur
-└── README.md # Dokumentasi proyek
+```
+├── airflow/dags/            # ETL workflows (DAGs)
+├── data/                    # Dataset CSV
+├── notebooks/               # Jupyter analysis
+├── docker-compose.yml       # Docker stack definition
+├── Arsitektur Pipeline.png  # Gambar arsitektur
+├── Laporan Akhir Tugas ABD_Kelompok 18 RB.pdf  # Dokumentasi proyek
+└── README.md                # Dokumentasi proyek
+```
 
 ## 🧪 Hasil Analisis
 
