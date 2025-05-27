@@ -93,7 +93,13 @@ Visualisasi dilakukan menggunakan Superset Dashboard dengan analisis lanjutan di
 
 1. Dataset utama dari Badan Pusat Statistik (2018–2022)
 2. Teknologi Big Data dan arsitektur pipeline mengacu pada praktik industri modern
-3. Dokumentasi lebih lengkap tersedia di [laporan tugas akhir](Laporan%20Akhir%20Tugas%20ABD_Kelompok%2018%20RB.pdf)
+
+## 📄 Dokumentasi Lengkap
+
+Untuk detail lengkap mengenai implementasi dan hasil analisis, silakan baca laporan tugas akhir berikut:
+
+📥 [Unduh / Lihat Laporan Tugas Akhir (PDF)](./Laporan%20Akhir%20Tugas%20ABD_Kelompok%2018%20RB.pdf)
+
 
 ---
 
